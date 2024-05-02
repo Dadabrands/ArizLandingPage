@@ -23,11 +23,11 @@ const Footer = () => {
         <div className="footer-section mb-4 flex flex-col lg:flex-row items-center justify-center px-6">
           <div className="contact-info flex items-center mb-2 lg:mr-4">
             <Mail />
-            <p className="ml-2">Arizlimited@gmail.com</p>
+            <p className="ml-2">claims.ariz@gmail.com</p>
           </div>
           <div className="contact-info flex items-center">
             <Smartphone />
-            <p className="ml-2">+234901 233 2135</p>
+            <p className="ml-2">+2348106144760</p>
           </div>
         </div>
         <div className="footer-section mb-8">
@@ -36,11 +36,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-section mb-8">
-          {/* <ul className="space-y-4">
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul> */}
         </div>
       </div>
       <div className="contact-section mb-8">
@@ -54,14 +49,7 @@ const Footer = () => {
                 <a href="#">About Us</a>
               </li>
             </ul>
-            {/* <Mail />
-
-            <p>Arizlimited@gmail.com</p> */}
-          </div>
-          {/* <div className="contact-info flex items-center">
-            <Smartphone />
-            <p>+234901 233 2135</p>
-          </div> */}
+           </div>
         </div>
       </div>
       <div className="rights-section mb-8">

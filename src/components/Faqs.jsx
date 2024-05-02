@@ -1,6 +1,6 @@
 import { testimonials } from "../constants/index";
 
-const Testimonials = () => {
+const Faqs = () => {
   return (
     <div className=" mx-auto pt-20 px-6 mt-10  tracking-wide bg-primary bg-opacity-50">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
@@ -20,4 +20,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Faqs;

@@ -1,6 +1,37 @@
 import email from "../assets/email.png";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
+
+       
+        
+   
 const Email = () => {
+
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8xk27zm",
+        "template_202pj7d",
+        form.current,
+        "qMQOrXe6TjO5gfHZV"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+          alert("Email sent !");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="max-w-7xl px-6 ">
@@ -14,10 +45,18 @@ const Email = () => {
               Stay in the Know with Our Newsletter! Sign up now to remain well
               informed.
             </p>
-            <input
-              className="py-2 px-3 border rounded-md mt-4"
-              placeholder="Enter Email Address"
-            />
+
+<form className="contactForm" ref={form} onSubmit={sendEmail}>
+          <input
+            type="email"
+            className="email py-2 px-3 border rounded-md mt-4"
+            placeholder="Enter Email Address"
+            name="your_email"
+          />
+          <button type="submit" value="Send" className="py-2 px-5 bg-primary text-white rounded-md mt-4">
+            Submit
+          </button>
+        </form>
           </div>
 
           <div className="p-4 w-full lg:w-1/2 lg:pl-8">

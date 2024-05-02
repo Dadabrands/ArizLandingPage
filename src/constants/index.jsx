@@ -5,12 +5,6 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
 
 import Icon from "../assets/Icon.png";
 import Icon2 from "../assets/Icon2.png";
@@ -28,28 +22,28 @@ export const navItems = [
 
 export const testimonials = [
   {
-    title: "What is a deductible ?",
-    text: "A deductible is the amount you must pay out of pocket for covered healthcare services before your insurance plan starts to pay. Once you've met your deductible, your insurance company will typically cover a percentage of the costs for covered services.",
+    title: "What problem does Ariz solve in the Nigerian healthcare system?",
+    text: "The Nigerian healthcare system faces challenges with inefficient claims processing, leading to delays and frustration for both hospitals and patients.",
   },
   {
-    title: "Can I change my health insurance plan ?",
-    text: "In most cases, you can only change your health insurance plan or enroll in a new plan during the open enrollment period, which typically occurs once a year. However, certain life events, such as getting married, having a baby, or losing other coverage, may qualify you for a special enrollment period.",
+    title: "How will Ariz benefit hospitals?",
+    text: "Ariz aims to help hospitals by automating tasks, reducing administrative burdens, and expediting claims processing. This can lead to faster reimbursements, fewer denials, and improved cash flow.",
   },
   {
-    title: "What is a copayment ?",
-    text: "A copayment (or copay) is a fixed amount you pay for covered healthcare services at the time of service, such as a doctor's visit or prescription medication.",
+    title: "How will Ariz benefit patients?",
+    text: "Ariz aims to empower patients by providing transparency around costs. This could involve features like estimated cost calculators and real-time claim tracking.",
   },
   {
-    title: "Can I see any doctor or specialist with my health insurance plan?",
-    text: "Your ability to see any doctor or specialist may depend on the type of health insurance plan you have. HMO plans typically require you to choose a primary care physician and obtain referrals for specialist care.",
+    title: "Is Ariz secure?",
+    text: "Security is a top priority. Ariz will implement robust data security measures to protect user information and comply with all relevant Nigerian data privacy regulations.",
   },
   {
-    title: "Does my health insurance plan cover prescription medications?",
-    text: "Most health insurance plans include coverage for prescription medications, but the specific drugs covered and the associated costs can vary.",
+    title: "When will Ariz be available?",
+    text: " Ariz is currently under development. We're committed to launching a user-friendly platform that addresses the needs of the Nigerian healthcare system. Stay tuned for updates on our progress!",
   },
   {
-    title: "Will Ariz be around to pay my claim?",
-    text: "YES!",
+    title: "How can I learn more about Ariz?",
+    text: "You can sign up for our mailing list to receive updates on Ariz's development and be among the first to know when we launch.",
   },
 ];
 

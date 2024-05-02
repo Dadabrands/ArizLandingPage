@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import { navItems } from "../constants/index";
 
 const Navbar = () => {
@@ -15,8 +15,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-20 w-20 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">Ariz</span>
+            <img className="h-19 w-30 mr-2" src={logo} alt="Logo" />
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -40,7 +39,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-0 z-20 bg-primary text-white w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -49,14 +48,14 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="flex space-x-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                Sign In
+              <a href="#" className="py-2 px-8 bg-white text-primary rounded-md ">
+              Login
               </a>
               <a
                 href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
+                className="py-2 px-3 rounded-md bg-secondary"
               >
-                Create an account
+                Register Now
               </a>
             </div>
           </div>
