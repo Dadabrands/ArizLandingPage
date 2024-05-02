@@ -53,7 +53,7 @@ const Email = () => {
             placeholder="Enter Email Address"
             name="your_email"
           />
-          <button type="submit" value="Send" className="py-2 px-5 bg-primary text-white rounded-md mt-4">
+          <button type="submit" value="Send" className=" m-4 py-2 px-5 bg-primary text-white rounded-md mt-4">
             Submit
           </button>
         </form>
