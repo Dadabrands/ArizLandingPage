@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Faqs from "./components/Faqs";
 import Streamline from "./components/Streamline";
 import Email from "./components/Email";
-import News from "./components/News";
+// import News from "./components/News";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       </div>
       <Faqs />
       <Email />
-      <News />
+      {/* <News /> */}
       <Footer />
     </>
   );
