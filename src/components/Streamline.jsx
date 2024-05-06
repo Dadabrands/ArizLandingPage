@@ -14,7 +14,6 @@ const Streamline = () => {
             {" "}
             {/* Add 'text-center lg:text-left' classes */}
             Streamline Claims & Boost Revenue with Ariz
-            <br /> Our Solution!
           </h1>
           <p className="text-md text-neutral-500 text-center lg:text-left">
             Our Solution !
