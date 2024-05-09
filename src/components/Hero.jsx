@@ -1,5 +1,5 @@
 import Herobg from "../assets/Herobg.jpg";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="relative overflow-hidden flex flex-col justify-center items-center px-16 py-20 text-white min-h-[800px] max-md:px-5">
@@ -31,9 +31,9 @@ const Hero = () => {
           everyone deserves access to affordable, high quality care, and Ariz
           puts you in control.
         </p>
-        <div className="justify-center px-12 py-5 mt-11 text-sm font-semibold bg-primary rounded-md max-md:px-5 max-md:mt-10">
-          Join Our Waitlist
-        </div>
+         <Link to="/newsletter" className="justify-center px-12 py-5 mt-11 text-sm font-semibold bg-primary rounded-md max-md:px-5 max-md:mt-10">
+        Join Our Waitlist
+      </Link>
       </div>
     </div>
   );
