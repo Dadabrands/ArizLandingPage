@@ -1,6 +1,13 @@
 import Herobg from "../assets/Herobg.jpg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+// import { useRef } from "react";
+import { Link } from "react-scroll";
+
+import Email from './Email'
+
 const Hero = () => {
+
+
   return (
     <div className="relative overflow-hidden flex flex-col justify-center items-center px-16 py-20 text-white min-h-[800px] max-md:px-5">
       <img
@@ -31,9 +38,16 @@ const Hero = () => {
           everyone deserves access to affordable, high quality care, and Ariz
           puts you in control.
         </p>
-         <Link to="/newsletter" className="justify-center px-12 py-5 mt-11 text-sm font-semibold bg-primary rounded-md max-md:px-5 max-md:mt-10">
+         <Link to="email" // ID of the element to scroll to
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}  className="justify-center px-12 py-5 mt-11 text-sm font-semibold bg-primary rounded-md max-md:px-5 max-md:mt-10">
         Join Our Waitlist
-      </Link>
+      </Link> 
+        
+
+
       </div>
     </div>
   );

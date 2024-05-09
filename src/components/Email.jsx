@@ -4,7 +4,6 @@ import { useRef } from "react";
 
 
        
-        
    
 const Email = () => {
 
@@ -33,7 +32,7 @@ const Email = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div  className="flex flex-col items-center justify-center h-screen">
       <div className="max-w-7xl px-6 ">
         <div className="flex flex-wrap justify-center items-center">
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start">
@@ -46,7 +45,7 @@ const Email = () => {
               informed.
             </p>
 
-<form className="contactForm" ref={form} onSubmit={sendEmail}>
+<form  id="email" className="contactForm" ref={form} onSubmit={sendEmail}>
           <input
             type="email"
             className="email py-2 px-3 border rounded-md mt-4"

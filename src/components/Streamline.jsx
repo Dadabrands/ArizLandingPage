@@ -2,6 +2,7 @@ import Dashboard from "../assets/Dashboard.png";
 
 const Streamline = () => {
   return (
+    <div className="max-w-7xl mx-auto pt-20 px-6">
     <div className="mt-20">
       <div className="flex flex-wrap justify-center items-center">
         {" "}
@@ -22,6 +23,8 @@ const Streamline = () => {
         </div>
       </div>
     </div>
+    </div>
+  
   );
 };
 
