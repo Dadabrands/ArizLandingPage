@@ -38,7 +38,7 @@
 
 // export default Workflow;
 
-import Image1 from "../assets/image1.png";
+import Image1 from "../assets/Image1.jpg";
 import { checklistItems } from "../constants/index";
 
 const Workflow = () => {
@@ -67,7 +67,7 @@ const Workflow = () => {
           ))}
         </div>
         <div className="p-4 w-full lg:w-1/2">
-          <img src={Image1} alt="Coding" />
+          <img src={Image1} alt="Coding" style={{ maxWidth: "100%", height: "auto" }}/>
         </div>
       </div>
     </div>
